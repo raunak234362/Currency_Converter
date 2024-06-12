@@ -28,10 +28,11 @@ function App() {
 
   return (
     <div
-        className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
+        className="w-full h-screen flex flex-wrap justify-center items-center bg-gradient-to-t from-cyan-900 via-gray-700 to-teal-800"
       
     >
         <div className="w-full">
+      <h1 className='text-3xl text-center text-white font-bold my-5'>Currency Converter</h1>
             <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
                 <form
                     onSubmit={(e) => {
